@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-ddd"
+version = "0.1.0"
+description = ""
+authors = ["run chen <17610780919@163.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = {version = "^21.12b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
